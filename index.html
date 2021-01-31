@@ -9,7 +9,7 @@ Go Straight On
 			var number_of_flapjack = 4;
 			var current_time = 1800;
 			var player_name = "";
-			var callout = 1900;
+			var callout = 1860;
 			var time_increment = 2;
 			var stoke_increment = 0.25;
 			var stoke_threshold = 3;
@@ -2707,32 +2707,32 @@ Go Straight On
 			}
 
 			function check_time() {
-				alert("Call out is at " + callout + ". The current time is: " + current_time);
+				alert("Call out is at 1900". The current time is: " + current_time);
 			}			
 			
 			function stoke_check() {
 				if (fresher_stoke < 3) {
 					alert("Are we going to die?");
 				}
-				else if (fresher_stoke == 3) {
+				else if (fresher_stoke >= 3 && fresher_stoke < 4) {
 					alert("I'm scared.");
 				}			  
-				else if (fresher_stoke == 4) {
+				else if (fresher_stoke >= 4 && fresher_stoke < 5) {
 					alert("Why do you enjoy this?");
 				}			  
-				else if (fresher_stoke == 5) {
+				else if (fresher_stoke >= 5 && fresher_stoke < 6) {
 					alert("Man, I a looking forward to a shower.");
 				}			  
-				else if (fresher_stoke == 6) {
+				else if (fresher_stoke >= 6 && fresher_stoke < 7) {
 					alert("I am alright, thanks.");
 				}			  
-				else if (fresher_stoke == 7) {
+				else if (fresher_stoke >= 7 && fresher_stoke < 8) {
 					alert("Yay caving!");
 				}			  
-				else if (fresher_stoke == 8) {
+				else if (fresher_stoke >= 8 && fresher_stoke < 9) {
 					alert("This is great, how do I get on committee?");
 				}		
-				else if (fresher_stoke > 8) {
+				else if (fresher_stoke >= 9) {
 					alert("My blood is mud, my heart is calcite. I am the cave.");
 			  }
 			}
